@@ -277,6 +277,11 @@ if profile:
             st.markdown("<ul class='pg-notes'>" + "".join(f"<li>{link(s['url'], s.get('label') or s['url'])}</li>" for s in srcs)
                         + "</ul>", unsafe_allow_html=True)
 
+else:
+    # Nothing below the search until an agency has been looked up or an example loaded.
+    st.markdown(content.FOOTER, unsafe_allow_html=True)
+    st.stop()
+
 results = st.container()
 
 # ---------------- inputs ----------------
@@ -313,11 +318,7 @@ for i, (group, key, label, opts, tag, note) in enumerate(FIELDS):
 r = compute(v)
 lo, hi = scenario_range(v)
 with results:
-    if profile:
-        label = f"Fee income at risk from unanswered out-of-hours calls for {esc(profile.get('agency_name'))}"
-    else:
-        label = ("<b>Example: a typical one-branch agency</b>, using the default numbers below. "
-                 "Look up an agency above to personalise it.<br>Fee income at risk from unanswered out-of-hours calls")
+    label = f"Fee income at risk from unanswered out-of-hours calls for {esc(profile.get('agency_name'))}"
     inst_year = r["inst_lost"] * 12
     st.markdown(
         f'<div class="pg-card"><p class="pg-k">{label}</p>'
