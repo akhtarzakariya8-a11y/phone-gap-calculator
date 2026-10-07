@@ -1,0 +1,78 @@
+{
+  "found": true,
+  "agency_name": "Winkworth Clapham",
+  "match_note": "Profiled the Winkworth franchise office in Clapham (SW4), run by Clapham Town Limited and owner-run by Ben Ainsworth, because the town hint was Clapham. Winkworth is a franchise network and this is one franchisee's office.",
+  "website": "https://www.winkworth.co.uk/estate-agents/clapham",
+  "services": "both",
+  "main_area": "Clapham Old Town, London SW4",
+  "branch_count": 1,
+  "branches": [
+    "Clapham (10A The Polygon, SW4 0JG)"
+  ],
+  "opening_hours": {
+    "weekdays": "08:00-18:00",
+    "saturday": "09:30-16:00",
+    "sunday": "closed"
+  },
+  "opening_hours_source": "https://www.winkworth.co.uk/estate-agents/clapham",
+  "out_of_hours_phone_cover": {
+    "status": "no_evidence",
+    "detail": null,
+    "source": null
+  },
+  "whatsapp": null,
+  "live_chat": null,
+  "chat_source": null,
+  "crm": null,
+  "avg_property_price": {
+    "value": 784355,
+    "area": "Clapham, London",
+    "measure": "average sold price, last 12 months, all property types",
+    "source_name": "Zoopla",
+    "source_url": "https://www.zoopla.co.uk/house-prices/london/clapham/"
+  },
+  "avg_monthly_rent": {
+    "value": 3024,
+    "area": "Clapham, London",
+    "measure": "average advertised rent of current listings (381 properties), per month",
+    "source_name": "Home.co.uk",
+    "source_url": "https://www.home.co.uk/for_rent/clapham/current_rents?location=clapham"
+  },
+  "review_evidence": [],
+  "sources": [
+    {
+      "label": "Winkworth Clapham office page (address, hours, owner, Companies House no.)",
+      "url": "https://www.winkworth.co.uk/estate-agents/clapham"
+    },
+    {
+      "label": "Winkworth Clapham team page",
+      "url": "https://www.winkworth.co.uk/estate-agents/clapham/meet-the-team"
+    },
+    {
+      "label": "Property Industry Eye: new Clapham franchise office",
+      "url": "https://propertyindustryeye.com/estate-agency-expands-with-new-franchise-office/"
+    },
+    {
+      "label": "Yelp listing (older address and hours at 30 Old Town)",
+      "url": "https://www.yelp.co.uk/biz/winkworth-clapham-london"
+    },
+    {
+      "label": "OnTheMarket agent branch page",
+      "url": "https://www.onthemarket.com/agents/branch/winkworth-clapham/"
+    },
+    {
+      "label": "Zoopla Clapham sold prices",
+      "url": "https://www.zoopla.co.uk/house-prices/london/clapham/"
+    },
+    {
+      "label": "Home.co.uk Clapham rent summary",
+      "url": "https://www.home.co.uk/for_rent/clapham/current_rents?location=clapham"
+    },
+    {
+      "label": "Winkworth plc (Wikipedia): franchise network of 103 offices",
+      "url": "https://en.wikipedia.org/wiki/Winkworth_plc"
+    }
+  ],
+  "_label": "Winkworth, Clapham",
+  "_researched": "7 Oct 2026"
+}

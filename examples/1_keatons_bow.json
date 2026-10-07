@@ -1,0 +1,98 @@
+{
+  "found": true,
+  "agency_name": "Keatons",
+  "match_note": "This is the Bow branch (397-399 Mile End Road, E3 4PB) of the Keatons group, which opened its first office in Bow in 1998. I chose it because you gave Bow, east London. Rightmove lists the Bow office's postcode as E3 4PB, and the group's own website lists the same office.",
+  "website": "https://www.keatons.com/",
+  "services": "both",
+  "main_area": "Bow, Tower Hamlets (E1, E2, E3, E14)",
+  "branch_count": 6,
+  "branches": [
+    "Bow",
+    "Deptford",
+    "Hackney - Chatsworth Road",
+    "Hackney - Mare Street",
+    "Shoreditch",
+    "Stratford"
+  ],
+  "opening_hours": {
+    "weekdays": "08:00-20:00",
+    "saturday": "08:00-20:00",
+    "sunday": "08:00-20:00"
+  },
+  "opening_hours_source": "https://www.keatons.com/contact/",
+  "out_of_hours_phone_cover": {
+    "status": "no_evidence",
+    "detail": "The agency's website says offices are contactable 8am to 8pm seven days a week. I found no page describing out-of-hours call answering or a maintenance line. Third-party listings (Yelp, getagent) show shorter hours of 09:00-19:00 Mon-Thu, 09:00-18:00 Fri, 09:00-17:00 Sat and closed Sun, which conflicts with the website. Trustpilot's company details say 'Open 24/7', but that does not say calls are answered.",
+    "source": "https://www.keatons.com/contact/"
+  },
+  "whatsapp": null,
+  "live_chat": null,
+  "chat_source": null,
+  "crm": null,
+  "avg_property_price": {
+    "value": 512552,
+    "area": "Bow, London",
+    "measure": "average sold price, last 12 months (HM Land Registry data via Zoopla)",
+    "source_name": "Zoopla",
+    "source_url": "https://www.zoopla.co.uk/house-prices/london/bow/"
+  },
+  "avg_monthly_rent": {
+    "value": 2389,
+    "area": "Tower Hamlets (borough including Bow)",
+    "measure": "average monthly private rent, January 2026 (ONS figure as quoted by a third-party article)",
+    "source_name": "The Arcadia Online (citing ONS)",
+    "source_url": "https://www.thearcadiaonline.com/7-recommended-letting-agents-for-premium-bow-east-london-properties-2026/"
+  },
+  "review_evidence": [
+    {
+      "quote": "being slow to respond or impossible to contact.",
+      "site": "Trustpilot",
+      "url": "https://uk.trustpilot.com/review/keatons.com"
+    },
+    {
+      "quote": "Keaton's would rarely return calls, emails.",
+      "site": "reviewsummary.co.uk (Deptford branch)",
+      "url": "https://reviewsummary.co.uk/place/464629-keatons"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Keatons contact page (offices, hours)",
+      "url": "https://www.keatons.com/contact/"
+    },
+    {
+      "label": "Keatons Bow office page",
+      "url": "https://www.keatons.com/offices/bow/"
+    },
+    {
+      "label": "Keatons homepage",
+      "url": "https://keatons.com/?J_T="
+    },
+    {
+      "label": "Rightmove - Keatons, Bow",
+      "url": "https://www.rightmove.co.uk/estate-agents/agent/Keatons/Bow-25055.html"
+    },
+    {
+      "label": "Yelp - Keatons Bow hours",
+      "url": "https://www.yelp.com/biz/keatons-bow-london"
+    },
+    {
+      "label": "getagent - Keatons Bow",
+      "url": "https://www.getagent.co.uk/branch/keatons-bow-e3/4467"
+    },
+    {
+      "label": "Zoopla Bow sold prices",
+      "url": "https://www.zoopla.co.uk/house-prices/london/bow/"
+    },
+    {
+      "label": "Trustpilot - Keatons",
+      "url": "https://uk.trustpilot.com/review/keatons.com"
+    },
+    {
+      "label": "LinkedIn - Keatons London",
+      "url": "https://uk.linkedin.com/company/keatons-estate-agents"
+    }
+  ],
+  "_label": "Keatons, Bow",
+  "_researched": "7 Oct 2026"
+}

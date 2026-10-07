@@ -1,0 +1,111 @@
+{
+  "found": true,
+  "agency_name": "Linley & Simpson",
+  "match_note": "Linley & Simpson is a single Yorkshire-wide agency, not a franchise, with several Leeds offices. No single Leeds branch was specified, so this profiles the brand using the Leeds City Centre branch (1 Dock St) for hours. Its branch finder lists 20 branches, while other pages quote 11, 17 and 21, so the count varies by source.",
+  "website": "https://www.linleyandsimpson.co.uk/",
+  "services": "both",
+  "main_area": "Leeds (city centre, Headingley/North Leeds, Roundhay, Horsforth, Chapel Allerton) and wider Yorkshire",
+  "branch_count": 20,
+  "branches": [
+    "Beverley",
+    "Bingley",
+    "Harrogate",
+    "Headingley",
+    "Hessle",
+    "Hull Area (Willerby)",
+    "Holmfirth",
+    "Horsforth",
+    "Ilkley",
+    "Leeds City Centre",
+    "North Leeds",
+    "Pudsey",
+    "Ripon",
+    "Roundhay",
+    "Sheffield",
+    "Wakefield",
+    "Wetherby",
+    "York"
+  ],
+  "opening_hours": {
+    "weekdays": "Mon-Thu 09:00-18:00, Fri 09:00-17:00",
+    "saturday": "09:00-16:00",
+    "sunday": null
+  },
+  "opening_hours_source": "https://www.linleyandsimpson.co.uk/branch-finder/leeds-city-centre-estate-agents-lettings-agents/contact-us/",
+  "out_of_hours_phone_cover": {
+    "status": "maintenance_only",
+    "detail": "The repair-reporting page offers 24/7 online repair reporting and an emergency contact option for urgent issues. The student branch says that out of hours, genuine emergencies should call the office number, where a recorded voicemail gives emergency contact numbers. No answering of sales or lettings calls out of hours was found.",
+    "source": "https://www.linleyandsimpson.co.uk/guides-and-resources/how-to-report-a-repair/"
+  },
+  "whatsapp": null,
+  "live_chat": null,
+  "chat_source": null,
+  "crm": "Propertycloud (tenant portal) and Fixflo (repair reporting) are named on the agency's pages; no sales CRM was named",
+  "avg_property_price": {
+    "value": 294495,
+    "area": "Leeds",
+    "measure": "average sold price, last 12 months",
+    "source_name": "Rightmove",
+    "source_url": "https://www.rightmove.co.uk/house-prices/leeds.html"
+  },
+  "avg_monthly_rent": {
+    "value": 1145,
+    "area": "Leeds",
+    "measure": "average monthly private rent, August 2026",
+    "source_name": "ONS",
+    "source_url": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000035/"
+  },
+  "review_evidence": [
+    {
+      "quote": "They hardly ever answer the phone, they will only ever return your calls if you've chased them at least three times.",
+      "site": "Trustpilot (Bingley branch)",
+      "url": "https://www.trustpilot.com/review/www.linleyandsimpson.co.uk/location/bingley?page=9"
+    },
+    {
+      "quote": "tried calling the office but the call is cutoff without being answered.",
+      "site": "Trustpilot (Leeds City Centre branch)",
+      "url": "https://www.trustpilot.com/review/www.linleyandsimpson.co.uk/location/leeds-city-centre"
+    },
+    {
+      "quote": "I have been promised calls back to never receive them.",
+      "site": "Reviews.io (Horsforth branch)",
+      "url": "https://www.reviews.io/company-reviews/store/linley-simpson1"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Leeds City Centre branch contact page and hours",
+      "url": "https://www.linleyandsimpson.co.uk/branch-finder/leeds-city-centre-estate-agents-lettings-agents/contact-us/"
+    },
+    {
+      "label": "Linley & Simpson branch finder (20 branches)",
+      "url": "https://www.linleyandsimpson.co.uk/branch-finder/"
+    },
+    {
+      "label": "How to report a repair (24/7 reporting and emergencies)",
+      "url": "https://www.linleyandsimpson.co.uk/guides-and-resources/how-to-report-a-repair/"
+    },
+    {
+      "label": "Student branch repair reporting (out-of-hours emergency voicemail)",
+      "url": "https://linleysimpsonstudents.fixflo.com/cy/Auth/HomeIssueCreate"
+    },
+    {
+      "label": "LinkedIn: Linley and Simpson with Morgans (Leeds city centre)",
+      "url": "https://www.linkedin.com/company/morgans-city-living"
+    },
+    {
+      "label": "Rightmove Leeds house prices",
+      "url": "https://www.rightmove.co.uk/house-prices/leeds.html"
+    },
+    {
+      "label": "ONS Leeds housing prices and rents",
+      "url": "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000035/"
+    },
+    {
+      "label": "Trustpilot reviews summary (mentions an AI chatbot)",
+      "url": "https://uk.trustpilot.com/review/www.linleyandsimpson.co.uk"
+    }
+  ],
+  "_label": "Linley & Simpson, Leeds",
+  "_researched": "7 Oct 2026"
+}
