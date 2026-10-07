@@ -313,10 +313,14 @@ for i, (group, key, label, opts, tag, note) in enumerate(FIELDS):
 r = compute(v)
 lo, hi = scenario_range(v)
 with results:
-    who = f" for {esc(profile.get('agency_name'))}" if profile else ""
+    if profile:
+        label = f"Fee income at risk from unanswered out-of-hours calls for {esc(profile.get('agency_name'))}"
+    else:
+        label = ("<b>Example: a typical one-branch agency</b>, using the default numbers below. "
+                 "Look up an agency above to personalise it.<br>Fee income at risk from unanswered out-of-hours calls")
     inst_year = r["inst_lost"] * 12
     st.markdown(
-        f'<div class="pg-card"><p class="pg-k">Fee income at risk from unanswered out-of-hours calls{who}</p>'
+        f'<div class="pg-card"><p class="pg-k">{label}</p>'
         f'<div class="pg-big">{gbp(r["year"])}<small>a year</small></div>'
         f'<p class="pg-sub"><b>{gbp(r["month"])}</b> a month · <b>{num(inst_year, 1 if inst_year < 10 else 0)}</b> instructions lost a year</p>'
         f'<div class="pg-range">Low to central range for this agency: <b>{gbp_k(lo)}–{gbp_k(hi)} a year</b></div>'
