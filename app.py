@@ -153,12 +153,12 @@ with st.form("lookup", border=True):
 
 examples = load_examples()
 if examples:
-    cols = st.columns([1.3] + [1] * len(examples) + [1])
-    cols[0].caption("Or load an example researched on 7 Oct 2026:")
-    for col, label in zip(cols[1:], examples):
+    st.caption("Or load an example researched on 7 Oct 2026 (instant, no lookup needed):")
+    cols = st.columns(len(examples))
+    for col, label in zip(cols, examples):
         col.button(label, on_click=load_example, args=(label,), width="stretch")
     if st.session_state.profile:
-        cols[-1].button("Clear agency", on_click=clear_agency, width="stretch")
+        st.button("Clear agency", on_click=clear_agency)
 
 if submitted:
     name, place = agency.strip(), hint.strip()

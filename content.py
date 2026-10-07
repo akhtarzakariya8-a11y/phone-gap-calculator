@@ -13,7 +13,7 @@ CSS = """
   --font-body: "Public Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
   --font-data: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
 }
-[data-testid="stMainBlockContainer"], .block-container { max-width: 880px; padding-top: 2.2rem; }
+[data-testid="stMainBlockContainer"], .block-container { max-width: 880px; padding-top: 4rem; }
 html, body, [data-testid="stAppViewContainer"] { font-family: var(--font-body); }
 h1, h2, h3 { font-family: var(--font-display) !important; letter-spacing: -0.015em; }
 .pg-eyebrow { font: 600 12px/1.2 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0; }
